@@ -102,7 +102,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>E:\trade_cpt\cpt_demo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -132,7 +132,8 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="CMduserHandler.cpp" />
-    <ClCompile Include="TraderDataHandler.cpp" />
+    <ClCompile Include="trader_spi.cpp" />
+    <ClCompile Include="trade_handler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CMduserHandler.h" />
@@ -140,7 +141,8 @@
     <ClInclude Include="ThostFtdcTraderApi.h" />
     <ClInclude Include="ThostFtdcUserApiDataType.h" />
     <ClInclude Include="ThostFtdcUserApiStruct.h" />
-    <ClInclude Include="TraderDataHandler.h" />
+    <ClInclude Include="trader_spi.h" />
+    <ClInclude Include="trader_handler.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="thostmduserapi_se.lib" />

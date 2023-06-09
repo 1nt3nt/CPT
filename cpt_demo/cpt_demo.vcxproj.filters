@@ -18,10 +18,13 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TraderDataHandler.cpp">
+    <ClCompile Include="trade_handler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CMduserHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trader_spi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,10 +41,13 @@
     <ClInclude Include="ThostFtdcUserApiStruct.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TraderDataHandler.h">
+    <ClInclude Include="ThostFtdcMdApi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ThostFtdcMdApi.h">
+    <ClInclude Include="trader_spi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trader_handler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
